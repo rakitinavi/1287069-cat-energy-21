@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кэт энерджи: Подбор программы</title>
+</head>
+<body>
+<header>
+  <div>
+    <a href="index.html">
+      <h3 class="visually-hidden">Cat energy</h3>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+            <span>Главная</span>
+          </a>
+        </li>
+        <li>
+          <a href="catalog.html">
+            <span>Каталог продукции</span>
+          </a>
+        </li>
+        <li>
+          <a href="form.html">
+            <span>Подбор программы</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section>
+    <div>
+      <h1>Подбор программы</h1>
+      <p>Заполните анкету и мы подберем программу питания для вашего кота</p>
+    </div>
+  </section>
+  <section>
+    <div>
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <div>
+          <div>
+            <div>
+              <label for="catname">Имя:*</label>
+              <input type="text" id="catname" name="catname" placeholder="Барсик">
+            </div>
+            <div>
+              <label for="weight">Вес (кг):*</label>
+              <input type="text" id="weight" name="weight" placeholder="7">
+            </div>
+            <div>
+              <label for="age">Возраст (лет):</label>
+              <input type="text" id="age" name="age" placeholder="7">
+            </div>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <input type="radio" name="program" value="slim" id="slim" checked="">
+                <label for="slim" tabindex="0">Похудение</label>
+              </li>
+              <li>
+                <input type="radio" name="program" value="mass" id="mass">
+                <label for="mass" tabindex="0">Набор массы</label>
+              </li>
+              <li>
+                <input type="radio" name="program" value="advice" id="advice">
+                <label for="advice" tabindex="0">Не знаю (нужен ваш совет)</label>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <h2>Контактные данные (владельца кота)</h2>
+            </div>
+            <div>
+              <div>
+                <label for="email">E-mail:*</label>
+                <input type="email" id="email" name="email" placeholder="kuklachev@gmail.com">
+              </div>
+              <div>
+                <label for="phone">Телефон:*</label>
+                <input type="tel" id="phone" name="phone" placeholder="8 (960) 900-60-90">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2>Комментарий</h2>
+            </div>
+            <textarea name="additional" placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
+          <div>
+            <div>
+              <h2>Дополнительно</h2>
+            </div>
+            <ul>
+              <li>
+                <input type="checkbox" name="sweetener" id="sweetener" checked="">
+                <label for="sweetener" tabindex="0">Сахарозаменитель</label>
+              </li>
+              <li>
+                <input type="checkbox" name="water" id="water">
+                <label for="water" tabindex="0">Питьевая вода</label>
+              </li>
+              <li>
+                <input type="checkbox" name="milk" id="milk">
+                <label for="milk" tabindex="0">Молоко</label>
+              </li>
+              <li>
+                <input type="checkbox" name="vitamins" id="vitamins">
+                <label for="vitamins" tabindex="0">Витамины</label>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button type="submit">Отправить заявку</button>
+            <span>* — Обязательные поля</span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section>
+    <div>
+      <div>
+        <div>
+          <h2>Приглашаем к сотрудничеству дилеров!</h2>
+          <div>
+            <p>ул. Большая Конюшенная, д. 19/8</p>
+            <p>Санкт-Петербург</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- Здесь будет карта -->
+    </div>
+  </section>
+</main>
+<footer>
+  <div>
+    <div>
+      <div>
+        <a href="index.html">
+          <h3 class="visually-hidden">Cat Energy</h3>
+        </a>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="#">
+              <h3 class="visually-hidden">Мы Вконтакте</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h3 class="visually-hidden">Мы в Инстаграме</h3>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h3 class="visually-hidden">Мы в Фейсбуке</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://htmlacademy.ru/intensive/adaptive">
+          <h3>HTML Academy</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
