@@ -18,5 +18,8 @@
   ],
   "engines": {
     "node": "12.18.2"
+  },
+  "dependencies": {
+    "browserify-css": "^0.15.0"
   }
 }
