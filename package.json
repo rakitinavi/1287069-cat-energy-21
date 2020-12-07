@@ -36,13 +36,10 @@
     "source/less/**/*.less"
   ],
   "engines": {
-<<<<<<< HEAD
     "node": "12.18.2"
   },
   "dependencies": {
     "browserify-css": "^0.15.0"
-=======
     "node": "14.15.0"
->>>>>>> 93a6b50edccb5586c893a1bdb1da74ad64b99ce3
   }
 }
